@@ -16,7 +16,6 @@
 body {
     color: var(--branco);
     background-color: var(--cor-de-fundo);
-    /* Chamando a variável correta que criamos lá no :root */
     font-family: var(--bitcount);
 }
 
