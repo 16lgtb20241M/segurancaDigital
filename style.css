@@ -1,27 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap" rel="stylesheet');
 
 :root{
     --branco: white;
-    --cor-de-fundo: #00162E;
-    --fundo-senha: #00244D;
+    --cor-de-fundo: #8d025f;
+    --fundo-senha: #1e4a7e;
     --fundo-texto: #001E40;
     --borda: #0075FF;
-    --roboto: 'Roboto', sans-serif;
-    --roboto-mono: 'Roboto Mono', monospace;
+ --bitcount: "Bitcount Grid Double", system-ui;
 }
 
-*{
+* {
     font-weight: 400;
 }
 
-body{
+body {
     color: var(--branco);
     background-color: var(--cor-de-fundo);
-    font-family: var(--roboto);
+    /* Chamando a variável correta que criamos lá no :root */
+    font-family: var(--bitcount);
 }
 
-.titulo-principal{
-    font-family: var(--roboto-mono);
+.titulo-principal {
+    font-family: var(--bitcount);
     font-size: 32px;
 }
 
@@ -130,18 +130,18 @@ label{
 }
 .fraca{
     width: 25%;
-    background-color: #E71B32; 
+    background-color: #ee5769; 
 }
 .parametro-senha-textos{
     display: flex;
     justify-content: space-between;
 }
 .media{
-    background-color: #FAF408;
+    background-color: #f7f452;
     width: 50%;
 }
 .forte{
-    background-color: #00FF85;
+    background-color: #4cfd73;
     width: 100%;
 }
 
